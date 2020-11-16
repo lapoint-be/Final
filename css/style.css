@@ -1,5 +1,9 @@
 body {
-  background-image: url("https://i.imgur.com/Zz2CfsK.jpg");
+  background-image: url("../img/home.jpg");
+  max-width: 1920px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-origin: content-box;*/
 }
 
 .spin {
@@ -41,7 +45,7 @@ body {
 .water {
   max-width: 200px;
   max-height: 200px;
-  transform: rotate(-135deg);
+  transform: rotate(135deg);
   align-items: center;
   background-color: rgba(0, 0, 255, 0.5);
   border-radius: 25px;
@@ -51,7 +55,7 @@ body {
 .earth {
   max-width: 200px;
   max-height: 200px;
-  transform: rotate(135deg);
+  transform: rotate(-135deg);
   align-items: center;
   background-color: rgba(0, 255, 0, 0.5);
   border-radius: 25px;

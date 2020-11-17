@@ -10310,7 +10310,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 5em;
 }
 .contact-section .card {
   border: 0;
@@ -10328,7 +10328,7 @@ body {
   width: 3rem;
 }
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 5em;
 }
 .contact-section .social a {
   text-align: center;
@@ -10347,9 +10347,30 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  height: 10vh;
+  padding: 2em;
 }
 
 .elecon {
   max-height: 25px;
+}
+
+.wikitext {
+  width: 80vw;
+  background-color: #A39171;
+  margin: auto;
+  margin-top: 5em;
+  padding-top: 1em;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 2em;
+  font-weight: bolder;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bendsymbols {
+  float: left;
+  width: 20vw;
+  margin-right: 2em;
+  z-index: 2;
 }

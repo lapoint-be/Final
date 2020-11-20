@@ -10361,9 +10361,11 @@ body {
   margin: auto;
   margin-top: 5em;
   padding-top: 1em;
-  padding-right: 4em;
-  padding-left: 4em;
+  padding-right: 8em;
+  padding-left: 8em;
   padding-bottom: 2em;
+  font-size: 19px;
+  line-height: 1.75em;
   font-weight: bolder;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -10373,4 +10375,15 @@ body {
   width: 20vw;
   margin-right: 2em;
   z-index: 2;
+}
+
+.bendgif {
+  position: relative;
+  width: 30vw;
+  margin-left: 14.5vw;
+}
+
+.topb {
+  padding: .5em;
+  margin-left: 22vw;
 }
